@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-.clearfix {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -122,7 +122,7 @@ body {
     background-color: black;
     color: white;
 }
-/* freccia in giu da aggiungere */
+
 
 /* main */
 
@@ -158,11 +158,17 @@ body {
     line-height: 20px;
 }
 
+
+/* sezione 2 */
+.side.text.left {
+    padding: 0;
+    padding-right: 20%;
+}
+
 /* sezione finale */
 #last-section {
     text-align: center;
-    position: relative;
-   padding-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 #last-section p {
@@ -175,21 +181,96 @@ body {
     margin-left: 30px;
     color: white;
     background-color: mediumpurple;
-    display: inline-block;
-}
-
-#last-section a {
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translate(-50%, -50%);
 }
 
 /* particelle */
 
 #particel {
     background-image: url("../img/stars.svg");
-    display: inline-block;
 }
 
+
+/* freccia in giu*/
+
+.long-arrow-alt-down::before {
+    font-size: 30px;
+    color: black;
+}
+
+
 /* footer */
+
+/* footer up */
+
+footer {
+    background-color: rgba(33, 14, 54, 0.993);
+    height: 70vh;
+}
+
+#foot-section {
+    width: 70%;
+    height: 70vh;
+    margin: auto;
+    padding: 5% 0;
+}
+
+.left-foot {
+    float: left;
+    width: 40%;
+    color: white;
+}
+
+#italiano {
+    margin-top: 10px;
+    height: 20px;
+}
+
+#social i {
+    font-size: 20px;
+    margin: 20px 10px 0 0;
+}
+
+.right-foot {
+    width: 15%;
+    float: left;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.right-foot li {
+    display: block;
+    font-size: 12px;
+    line-height: 25px;
+}
+#foot-section h2,h3 {
+    color: mediumpurple;
+}
+
+/* footer down */
+
+.bottom-foot {
+    border-top: 2px solid purple;
+    padding: 5% 0;
+    position: relative;
+}
+
+.bottom-foot img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.bottom-foot .button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    padding: 10px;
+    color: white;
+    background-color: mediumpurple;
+}
+
+
+
+
+
