@@ -20,7 +20,7 @@ body {
 
 /* sub-generale */
 .midlane {
-    width: 80%;
+    width: 70%;
     margin: auto;
     position: relative;
 }
@@ -123,3 +123,73 @@ body {
     color: white;
 }
 /* freccia in giu da aggiungere */
+
+/* main */
+
+
+/* generali per le section */
+.main-section {
+    height: 80vh;
+    padding: 20% 0;
+    margin-bottom: 20%;
+    /* debug */
+    /* background-color:indianred; */
+}
+
+
+.side {
+    float: left;
+    width: 50%;
+}
+
+.side.text {
+    padding-left: 21%;
+    max-width: 45%;
+}
+.text h2 {
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.text p {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+/* sezione finale */
+#last-section {
+    text-align: center;
+    position: relative;
+   padding-bottom: 100px;
+}
+
+#last-section p {
+    padding: 0 10%;
+    
+}
+
+#last-section .button {
+    padding: 20px;
+    margin-left: 30px;
+    color: white;
+    background-color: mediumpurple;
+    display: inline-block;
+}
+
+#last-section a {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+}
+
+/* particelle */
+
+#particel {
+    background-image: url("../img/stars.svg");
+    display: inline-block;
+}
+
+/* footer */
