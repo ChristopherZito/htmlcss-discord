@@ -13,3 +13,64 @@
     display: table;
     clear: both;
 }
+/* sub-generale */
+.midlane {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.button {
+    position:absolute;
+    right: 0px;
+    top: 20px;
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 60px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+/* header */
+
+#jumbotron {
+    height: 70vh;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    object-fit: none;
+
+    /* debug */
+    /* background-color: blue; */
+}
+
+
+/* navigation bar */
+#top-bar img {
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+#top-bar nav,li,a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+#top-bar nav {
+    position: absolute;
+    top: 20px;
+    right: 30%;
+}
+
+#top-bar li {
+    margin: 0 10px;
+}
+
+#top-bar span {
+    text-decoration: none;
+    text-align: right;
+}
+
