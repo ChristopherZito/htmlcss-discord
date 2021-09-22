@@ -1,4 +1,4 @@
-/* font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif; */
+
 
 /* generale */
 
@@ -13,6 +13,11 @@
     display: table;
     clear: both;
 }
+
+body {
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
 /* sub-generale */
 .midlane {
     width: 80%;
@@ -21,20 +26,15 @@
 }
 
 .button {
-    position:absolute;
-    right: 0px;
-    top: 20px;
     background-color: white;
     color: black;
-    height: 40px;
-    width: 60px;
-    padding: 10px;
     text-align: center;
     border-radius: 25px;
 }
 
 /* header */
 
+/* jumbo */
 #jumbotron {
     height: 70vh;
     background-image: url("../img/jumbo.png");
@@ -74,3 +74,52 @@
     text-align: right;
 }
 
+#top-bar .button {
+    position:absolute;
+    right: 0px;
+    top: 20px;
+    height: 40px;
+    width: 60px;
+    padding: 10px;
+}
+
+
+/* middle site */
+#mid-text {
+    position: absolute;
+    top: 30vh;
+    left: 50% ;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 50%;
+    color: white;
+}
+
+#mid-text nav {
+    display: block;
+}
+
+#mid-text h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#mid-text p {
+    line-height: 20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#mid-text .button {
+
+    padding: 20px;
+    margin-left: 30px;
+
+}
+ 
+.button.black {
+    background-color: black;
+    color: white;
+}
+/* freccia in giu da aggiungere */
